@@ -1,3 +1,12 @@
+let typed = new Typed('#typed-text', {
+    strings: [
+        "Initializing system...^1000<br>> Welcome to my portfolio.^1000<br>> Type 'help' to see available commands."
+    ],
+    typeSpeed: 50,      
+    showCursor: true,
+    cursorChar: '▮'
+});
+
 let input=document.getElementById("cmdInput");
 let terminalScreen=document.querySelector(".screen");
 

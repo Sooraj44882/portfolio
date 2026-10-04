@@ -199,3 +199,8 @@ h2 {
     font-size: 15px;
     margin-bottom: 10px;
 }
+
+.typed-cursor {
+    color: #00ff41;
+    animation: blink 0.7s infinite;
+}
