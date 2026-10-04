@@ -3,6 +3,8 @@
 
 it's cool looking hacker terminal based theme portfolio.Text animation and feeling like running linux terminal 
 
+### Link
+click here to open https://sooraj44882.github.io/portfolio/
 
 **try typing these commands:**
 * `help` (shows you what to do)
