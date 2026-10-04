@@ -5,8 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hacker</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav>
+        <div class="logo">nika@portfolio:~$ ▮</div>
+        <button class="menu-btn">☰</button>
+        <ul class="nav-links">
+            <li><a href="#home">/home</a></li>
+            <li><a href="#about">/about</a></li>
+            <li><a href="#skills">/skills</a></li>
+            <li><a href="#projects">/projects</a></li>
+            <li><a href="#contact">/contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="terminal">
+            <div class="top">
+                <span class="dots">
+                    <span class="red"></span>
+                    <span class="yellow"></span>
+                    <span class="green"></span>
+                </span>
+                <span>nika@portfolio - bash</span>
+            </div>
+
+            <div class="screen">
+                <p>> Welcome to my portfolio</p>
+                <p>> Type 'help' to see commands</p>
+            </div>
+
+            <div class="inputLine">
+                <span>visitor:~$</span>
+                <input type="text" id="cmdInput" placeholder="type a command...">
+            </div>
+        </div>
+    </section>
+
     
     <script src="script.js"></script>
 </body>
